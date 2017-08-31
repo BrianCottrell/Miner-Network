@@ -1,0 +1,218 @@
+[
+  {
+    "_id": "Network-Wallet-Traffic-for-Dashcoin",
+    "_type": "search",
+    "_source": {
+      "title": "Network Wallet Traffic for Dashcoin",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "ApplicationID",
+        "SrcIP",
+        "DestIP",
+        "DestPort"
+      ],
+      "sort": [
+        "TimeUpdated",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[network_]YYYY_MM_DD\",\"highlight\":{\"pre_tags\":[\"@kibana-highlighted-field@\"],\"post_tags\":[\"@/kibana-highlighted-field@\"],\"fields\":{\"*\":{}},\"fragment_size\":2147483647},\"filter\":[],\"query\":{\"query_string\":{\"query\":\"DestPort:29080\",\"analyze_wildcard\":true}}}"
+      }
+    }
+  },
+  {
+    "_id": "Network-Wallet-Traffic-for-Etherum",
+    "_type": "search",
+    "_source": {
+      "title": "Network Wallet Traffic for Etherum",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "ApplicationID",
+        "SrcIP",
+        "DestIP",
+        "DestPort"
+      ],
+      "sort": [
+        "TimeUpdated",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[network_]YYYY_MM_DD\",\"highlight\":{\"pre_tags\":[\"@kibana-highlighted-field@\"],\"post_tags\":[\"@/kibana-highlighted-field@\"],\"fields\":{\"*\":{}},\"fragment_size\":2147483647},\"filter\":[],\"query\":{\"query_string\":{\"query\":\"DestPort:30303\",\"analyze_wildcard\":true}}}"
+      }
+    }
+  },
+  {
+    "_id": "Network-Wallet-Traffic-for-Monero",
+    "_type": "search",
+    "_source": {
+      "title": "Network Wallet Traffic for Monero",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "ApplicationID",
+        "SrcIP",
+        "DestIP",
+        "DestPort"
+      ],
+      "sort": [
+        "TimeUpdated",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[network_]YYYY_MM_DD\",\"highlight\":{\"pre_tags\":[\"@kibana-highlighted-field@\"],\"post_tags\":[\"@/kibana-highlighted-field@\"],\"fields\":{\"*\":{}},\"fragment_size\":2147483647},\"filter\":[],\"query\":{\"query_string\":{\"query\":\"DestPort:18080\",\"analyze_wildcard\":true}}}"
+      }
+    }
+  },
+  {
+    "_id": "Network-Traffic-on-all-Mining-systems",
+    "_type": "search",
+    "_source": {
+      "title": "Network Traffic on all Mining systems",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "ApplicationID",
+        "SrcIP",
+        "DestIP",
+        "DestPort"
+      ],
+      "sort": [
+        "TimeUpdated",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[network_]YYYY_MM_DD\",\"highlight\":{\"pre_tags\":[\"@kibana-highlighted-field@\"],\"post_tags\":[\"@/kibana-highlighted-field@\"],\"fields\":{\"*\":{}},\"fragment_size\":2147483647},\"filter\":[],\"query\":{\"query_string\":{\"query\":\"DestPort:45790 and DestPort:45791 and DestPort:45720\",\"analyze_wildcard\":true}}}"
+      }
+    }
+  },
+  {
+    "_id": "Network-traffic-for-Security-Workstation",
+    "_type": "search",
+    "_source": {
+      "title": "Network traffic for Security Workstation",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "ApplicationID",
+        "DestPort",
+        "DestIP"
+      ],
+      "sort": [
+        "TimeUpdated",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[network_]YYYY_MM_DD\",\"highlight\":{\"pre_tags\":[\"@kibana-highlighted-field@\"],\"post_tags\":[\"@/kibana-highlighted-field@\"],\"fields\":{\"*\":{}},\"fragment_size\":2147483647},\"filter\":[],\"query\":{\"query_string\":{\"query\":\"SrcIP:192.168.1.96\",\"analyze_wildcard\":true}}}"
+      }
+    }
+  },
+  {
+    "_id": "SrcIP-192.168.1.71",
+    "_type": "search",
+    "_source": {
+      "title": "SrcIP 192.168.1.71",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "Application",
+        "ApplicationID",
+        "SrcIP",
+        "SrcPort",
+        "DestIP",
+        "DestPort",
+        "TotalBytes"
+      ],
+      "sort": [
+        "TimeUpdated",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[network_]YYYY_MM_DD\",\"highlight\":{\"pre_tags\":[\"@kibana-highlighted-field@\"],\"post_tags\":[\"@/kibana-highlighted-field@\"],\"fields\":{\"*\":{}},\"fragment_size\":2147483647},\"filter\":[],\"query\":{\"query_string\":{\"query\":\"SrcIP:192.168.1.71\",\"analyze_wildcard\":true}}}"
+      }
+    }
+  },
+  {
+    "_id": "SrcIP-192.168.1.109",
+    "_type": "search",
+    "_source": {
+      "title": "SrcIP 192.168.1.109",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "Application",
+        "ApplicationID",
+        "SrcIP",
+        "SrcPort",
+        "DestIP",
+        "DestPort",
+        "TotalBytes"
+      ],
+      "sort": [
+        "TimeUpdated",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[network_]YYYY_MM_DD\",\"highlight\":{\"pre_tags\":[\"@kibana-highlighted-field@\"],\"post_tags\":[\"@/kibana-highlighted-field@\"],\"fields\":{\"*\":{}},\"fragment_size\":2147483647},\"filter\":[],\"query\":{\"query_string\":{\"query\":\"SrcIP:192.168.1.109\",\"analyze_wildcard\":true}}}"
+      }
+    }
+  },
+  {
+    "_id": "Minergate-XMR-merged-mining-from-Crypto-Workstation",
+    "_type": "search",
+    "_source": {
+      "title": "Minergate XMR merged mining from Crypto Workstation",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "ApplicationID",
+        "DestIP",
+        "DestPort",
+        "Duration",
+        "TotalBytes"
+      ],
+      "sort": [
+        "TimeUpdated",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[network_]YYYY_MM_DD\",\"highlight\":{\"pre_tags\":[\"@kibana-highlighted-field@\"],\"post_tags\":[\"@/kibana-highlighted-field@\"],\"fields\":{\"*\":{}},\"fragment_size\":2147483647},\"filter\":[],\"query\":{\"query_string\":{\"query\":\"DestPort:45790 and DestPort:45791\",\"analyze_wildcard\":true}}}"
+      }
+    }
+  },
+  {
+    "_id": "Minergate-XMR-mining",
+    "_type": "search",
+    "_source": {
+      "title": "Minergate XMR mining",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "Application",
+        "ApplicationID",
+        "SrcIP",
+        "SrcPort",
+        "DestIP",
+        "DestPort",
+        "TotalBytes"
+      ],
+      "sort": [
+        "TimeUpdated",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"[network_]YYYY_MM_DD\",\"highlight\":{\"pre_tags\":[\"@kibana-highlighted-field@\"],\"post_tags\":[\"@/kibana-highlighted-field@\"],\"fields\":{\"*\":{}},\"fragment_size\":2147483647},\"filter\":[],\"query\":{\"query_string\":{\"query\":\"DestPort:45790\",\"analyze_wildcard\":true}}}"
+      }
+    }
+  }
+]
