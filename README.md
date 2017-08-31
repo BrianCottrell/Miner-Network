@@ -33,3 +33,4 @@ Load MinerDashboards.json for a complete dashboard for monitoring the operation 
 
 Test the project by uploading data one of the included pcap files to analyze data from our own mining network.
 ![Miner Network](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/529/625/datas/gallery.jpg "Miner Network")
+![Miner Network](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/529/639/datas/gallery.jpg "Miner Network")
